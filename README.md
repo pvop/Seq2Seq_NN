@@ -1,1 +1,1 @@
-# Seq2Seq_NN
+## The tensorflow implementation of paper Sequence to Sequence Learning with Neural Networks
