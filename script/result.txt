@@ -1,0 +1,1236 @@
+ssh://liuhui@192.168.124.143:22/usr/bin/python3 -u /home/liuhui/python_files/Seq2Seq_NN/script/main.py
+source_train_datas: (172767, 100)
+target_train_datas: (172767, 100)
+source_dev_datas: (1165, 93)
+target_dev_datas: (1165, 91)
+source_test_datas: (1700, 94)
+target_test_datas: (1700, 96)
+2019-09-09 19:44:10.652773: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-09-09 19:44:10.936527: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties:
+name: TITAN Xp major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:3b:00.0
+totalMemory: 11.91GiB freeMemory: 11.76GiB
+2019-09-09 19:44:10.936580: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-09-09 19:44:11.513308: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-09 19:44:11.513360: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2019-09-09 19:44:11.513367: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2019-09-09 19:44:11.513511: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11378 MB memory) -> physical GPU (device: 0, name: TITAN Xp, pci bus id: 0000:3b:00.0, compute capability: 6.1)
+0 / 1349
+Trining loss is: 4.0147643
+100 / 1349
+Trining loss is: 4.254794
+200 / 1349
+Trining loss is: 4.007559
+300 / 1349
+Trining loss is: 3.2264667
+400 / 1349
+Trining loss is: 4.296667
+500 / 1349
+Trining loss is: 4.112295
+600 / 1349
+Trining loss is: 4.1753182
+700 / 1349
+Trining loss is: 4.0288076
+800 / 1349
+Trining loss is: 3.5431635
+900 / 1349
+Trining loss is: 3.691549
+1000 / 1349
+Trining loss is: 3.533807
+1100 / 1349
+Trining loss is: 3.8639634
+1200 / 1349
+Trining loss is: 3.9156032
+1300 / 1349
+Trining loss is: 3.7664213
+0 / 1349
+Trining loss is: 3.9630113
+100 / 1349
+Trining loss is: 4.160771
+200 / 1349
+Trining loss is: 3.867444
+300 / 1349
+Trining loss is: 3.1393778
+400 / 1349
+Trining loss is: 4.2230234
+500 / 1349
+Trining loss is: 4.025974
+600 / 1349
+Trining loss is: 4.070042
+700 / 1349
+Trining loss is: 3.958356
+800 / 1349
+Trining loss is: 3.4477973
+900 / 1349
+Trining loss is: 3.6390133
+1000 / 1349
+Trining loss is: 3.4461231
+1100 / 1349
+Trining loss is: 3.7382987
+1200 / 1349
+Trining loss is: 3.8087022
+1300 / 1349
+Trining loss is: 3.6780984
+0 / 1349
+Trining loss is: 3.851721
+100 / 1349
+Trining loss is: 4.074705
+200 / 1349
+Trining loss is: 3.823081
+300 / 1349
+Trining loss is: 3.0563767
+400 / 1349
+Trining loss is: 4.138438
+500 / 1349
+Trining loss is: 3.9228737
+600 / 1349
+Trining loss is: 4.0220637
+700 / 1349
+Trining loss is: 3.8918133
+800 / 1349
+Trining loss is: 3.3391502
+900 / 1349
+Trining loss is: 3.5208435
+1000 / 1349
+Trining loss is: 3.3534856
+1100 / 1349
+Trining loss is: 3.6777375
+1200 / 1349
+Trining loss is: 3.7334032
+1300 / 1349
+Trining loss is: 3.6029506
+0 / 1349
+Trining loss is: 3.7916646
+100 / 1349
+Trining loss is: 3.9803205
+200 / 1349
+Trining loss is: 3.741924
+300 / 1349
+Trining loss is: 2.9781778
+400 / 1349
+Trining loss is: 4.0485377
+500 / 1349
+Trining loss is: 3.8663082
+600 / 1349
+Trining loss is: 3.937054
+700 / 1349
+Trining loss is: 3.7989907
+800 / 1349
+Trining loss is: 3.2825773
+900 / 1349
+Trining loss is: 3.4533532
+1000 / 1349
+Trining loss is: 3.2821887
+1100 / 1349
+Trining loss is: 3.5702274
+1200 / 1349
+Trining loss is: 3.6694589
+1300 / 1349
+Trining loss is: 3.5161486
+0 / 1349
+Trining loss is: 3.7204857
+100 / 1349
+Trining loss is: 3.9156287
+200 / 1349
+Trining loss is: 3.6756806
+300 / 1349
+Trining loss is: 2.8860424
+400 / 1349
+Trining loss is: 3.983825
+500 / 1349
+Trining loss is: 3.7802296
+600 / 1349
+Trining loss is: 3.8646665
+700 / 1349
+Trining loss is: 3.7452145
+800 / 1349
+Trining loss is: 3.2244523
+900 / 1349
+Trining loss is: 3.3914545
+1000 / 1349
+Trining loss is: 3.2112603
+1100 / 1349
+Trining loss is: 3.518199
+1200 / 1349
+Trining loss is: 3.5717144
+1300 / 1349
+Trining loss is: 3.4233155
+0 / 1349
+Trining loss is: 3.647537
+100 / 1349
+Trining loss is: 3.8839364
+200 / 1349
+Trining loss is: 3.5875888
+300 / 1349
+Trining loss is: 2.806036
+400 / 1349
+Trining loss is: 3.8853672
+500 / 1349
+Trining loss is: 3.6922498
+600 / 1349
+Trining loss is: 3.7726014
+700 / 1349
+Trining loss is: 3.676764
+800 / 1349
+Trining loss is: 3.1494358
+900 / 1349
+Trining loss is: 3.329573
+1000 / 1349
+Trining loss is: 3.1350915
+1100 / 1349
+Trining loss is: 3.4340498
+1200 / 1349
+Trining loss is: 3.5309222
+1300 / 1349
+Trining loss is: 3.39655
+0 / 1349
+Trining loss is: 3.583146
+100 / 1349
+Trining loss is: 3.7461743
+200 / 1349
+Trining loss is: 3.5187986
+300 / 1349
+Trining loss is: 2.7472281
+400 / 1349
+Trining loss is: 3.831252
+500 / 1349
+Trining loss is: 3.6346254
+600 / 1349
+Trining loss is: 3.7440603
+700 / 1349
+Trining loss is: 3.6127875
+800 / 1349
+Trining loss is: 3.0886977
+900 / 1349
+Trining loss is: 3.2626538
+1000 / 1349
+Trining loss is: 3.0647395
+1100 / 1349
+Trining loss is: 3.4140234
+1200 / 1349
+Trining loss is: 3.4841042
+1300 / 1349
+Trining loss is: 3.305993
+0 / 1349
+Trining loss is: 3.503515
+100 / 1349
+Trining loss is: 3.7070575
+200 / 1349
+Trining loss is: 3.4694588
+300 / 1349
+Trining loss is: 2.6644447
+400 / 1349
+Trining loss is: 3.7436156
+500 / 1349
+Trining loss is: 3.552215
+600 / 1349
+Trining loss is: 3.682969
+700 / 1349
+Trining loss is: 3.5621254
+800 / 1349
+Trining loss is: 2.9905295
+900 / 1349
+Trining loss is: 3.2040186
+1000 / 1349
+Trining loss is: 2.979967
+1100 / 1349
+Trining loss is: 3.3125122
+1200 / 1349
+Trining loss is: 3.4008822
+1300 / 1349
+Trining loss is: 3.225457
+0 / 1349
+Trining loss is: 3.4475648
+100 / 1349
+Trining loss is: 3.643043
+200 / 1349
+Trining loss is: 3.4058487
+300 / 1349
+Trining loss is: 2.6186314
+400 / 1349
+Trining loss is: 3.6668775
+500 / 1349
+Trining loss is: 3.4789598
+600 / 1349
+Trining loss is: 3.648452
+700 / 1349
+Trining loss is: 3.5198913
+800 / 1349
+Trining loss is: 2.9392095
+900 / 1349
+Trining loss is: 3.1612449
+1000 / 1349
+Trining loss is: 2.9230254
+1100 / 1349
+Trining loss is: 3.2883105
+1200 / 1349
+Trining loss is: 3.3212953
+1300 / 1349
+Trining loss is: 3.1866636
+0 / 1349
+Trining loss is: 3.3793907
+100 / 1349
+Trining loss is: 3.554797
+200 / 1349
+Trining loss is: 3.3450027
+300 / 1349
+Trining loss is: 2.5553474
+400 / 1349
+Trining loss is: 3.5977852
+500 / 1349
+Trining loss is: 3.41653
+600 / 1349
+Trining loss is: 3.5966566
+700 / 1349
+Trining loss is: 3.437662
+800 / 1349
+Trining loss is: 2.897919
+900 / 1349
+Trining loss is: 3.078237
+1000 / 1349
+Trining loss is: 2.8679135
+1100 / 1349
+Trining loss is: 3.1974623
+1200 / 1349
+Trining loss is: 3.2758253
+1300 / 1349
+Trining loss is: 3.1408238
+0 / 1349
+Trining loss is: 3.3352551
+100 / 1349
+Trining loss is: 3.4793184
+200 / 1349
+Trining loss is: 3.2853894
+300 / 1349
+Trining loss is: 2.4738936
+400 / 1349
+Trining loss is: 3.5238206
+500 / 1349
+Trining loss is: 3.3600185
+600 / 1349
+Trining loss is: 3.5108023
+700 / 1349
+Trining loss is: 3.406738
+800 / 1349
+Trining loss is: 2.8487175
+900 / 1349
+Trining loss is: 3.0327117
+1000 / 1349
+Trining loss is: 2.8194714
+1100 / 1349
+Trining loss is: 3.1602492
+1200 / 1349
+Trining loss is: 3.1945853
+1300 / 1349
+Trining loss is: 3.0574093
+0 / 1349
+Trining loss is: 3.2689836
+100 / 1349
+Trining loss is: 3.4088478
+200 / 1349
+Trining loss is: 3.2535622
+300 / 1349
+Trining loss is: 2.4294035
+400 / 1349
+Trining loss is: 3.473574
+500 / 1349
+Trining loss is: 3.3103397
+600 / 1349
+Trining loss is: 3.4515617
+700 / 1349
+Trining loss is: 3.3573558
+800 / 1349
+Trining loss is: 2.7658777
+900 / 1349
+Trining loss is: 2.978968
+1000 / 1349
+Trining loss is: 2.7490594
+1100 / 1349
+Trining loss is: 3.1053352
+1200 / 1349
+Trining loss is: 3.1610968
+1300 / 1349
+Trining loss is: 3.0128627
+0 / 1349
+Trining loss is: 3.1942897
+100 / 1349
+Trining loss is: 3.361162
+200 / 1349
+Trining loss is: 3.1738117
+300 / 1349
+Trining loss is: 2.3923223
+400 / 1349
+Trining loss is: 3.4205594
+500 / 1349
+Trining loss is: 3.2179513
+600 / 1349
+Trining loss is: 3.4059556
+700 / 1349
+Trining loss is: 3.307609
+800 / 1349
+Trining loss is: 2.7032423
+900 / 1349
+Trining loss is: 2.9395165
+1000 / 1349
+Trining loss is: 2.7059786
+1100 / 1349
+Trining loss is: 3.0535
+1200 / 1349
+Trining loss is: 3.0854793
+1300 / 1349
+Trining loss is: 2.9277651
+0 / 1349
+Trining loss is: 3.1468196
+100 / 1349
+Trining loss is: 3.325382
+200 / 1349
+Trining loss is: 3.1349013
+300 / 1349
+Trining loss is: 2.353912
+400 / 1349
+Trining loss is: 3.3648894
+500 / 1349
+Trining loss is: 3.1534698
+600 / 1349
+Trining loss is: 3.3544006
+700 / 1349
+Trining loss is: 3.2724981
+800 / 1349
+Trining loss is: 2.6706645
+900 / 1349
+Trining loss is: 2.8773756
+1000 / 1349
+Trining loss is: 2.6191115
+1100 / 1349
+Trining loss is: 3.0082047
+1200 / 1349
+Trining loss is: 3.0332067
+1300 / 1349
+Trining loss is: 2.888837
+0 / 1349
+Trining loss is: 3.105402
+100 / 1349
+Trining loss is: 3.256959
+200 / 1349
+Trining loss is: 3.067674
+300 / 1349
+Trining loss is: 2.2571309
+400 / 1349
+Trining loss is: 3.2966716
+500 / 1349
+Trining loss is: 3.0878365
+600 / 1349
+Trining loss is: 3.3409095
+700 / 1349
+Trining loss is: 3.2202826
+800 / 1349
+Trining loss is: 2.5954077
+900 / 1349
+Trining loss is: 2.8308375
+1000 / 1349
+Trining loss is: 2.5763056
+1100 / 1349
+Trining loss is: 2.9587393
+1200 / 1349
+Trining loss is: 2.9979064
+1300 / 1349
+Trining loss is: 2.833766
+0 / 1349
+Trining loss is: 3.0372102
+100 / 1349
+Trining loss is: 3.1796505
+200 / 1349
+Trining loss is: 3.0022743
+300 / 1349
+Trining loss is: 2.2221131
+400 / 1349
+Trining loss is: 3.25842
+500 / 1349
+Trining loss is: 3.0519166
+600 / 1349
+Trining loss is: 3.2700992
+700 / 1349
+Trining loss is: 3.1868804
+800 / 1349
+Trining loss is: 2.530155
+900 / 1349
+Trining loss is: 2.8136506
+1000 / 1349
+Trining loss is: 2.509147
+1100 / 1349
+Trining loss is: 2.9219866
+1200 / 1349
+Trining loss is: 2.9348938
+1300 / 1349
+Trining loss is: 2.75912
+0 / 1349
+Trining loss is: 2.9831927
+100 / 1349
+Trining loss is: 3.1189206
+200 / 1349
+Trining loss is: 2.9825368
+300 / 1349
+Trining loss is: 2.169473
+400 / 1349
+Trining loss is: 3.222952
+500 / 1349
+Trining loss is: 3.028172
+600 / 1349
+Trining loss is: 3.2568886
+700 / 1349
+Trining loss is: 3.1738968
+800 / 1349
+Trining loss is: 2.4777234
+900 / 1349
+Trining loss is: 2.7523506
+1000 / 1349
+Trining loss is: 2.4562745
+1100 / 1349
+Trining loss is: 2.884977
+1200 / 1349
+Trining loss is: 2.8952956
+1300 / 1349
+Trining loss is: 2.709062
+0 / 1349
+Trining loss is: 2.9414132
+100 / 1349
+Trining loss is: 3.0647662
+200 / 1349
+Trining loss is: 2.9036741
+300 / 1349
+Trining loss is: 2.1439683
+400 / 1349
+Trining loss is: 3.1615057
+500 / 1349
+Trining loss is: 2.9518273
+600 / 1349
+Trining loss is: 3.2198155
+700 / 1349
+Trining loss is: 3.1254563
+800 / 1349
+Trining loss is: 2.482646
+900 / 1349
+Trining loss is: 2.7128828
+1000 / 1349
+Trining loss is: 2.4239507
+1100 / 1349
+Trining loss is: 2.799132
+1200 / 1349
+Trining loss is: 2.87659
+1300 / 1349
+Trining loss is: 2.6409194
+0 / 1349
+Trining loss is: 2.9021213
+100 / 1349
+Trining loss is: 3.0187223
+200 / 1349
+Trining loss is: 2.8675902
+300 / 1349
+Trining loss is: 2.0948098
+400 / 1349
+Trining loss is: 3.1159647
+500 / 1349
+Trining loss is: 2.9198792
+600 / 1349
+Trining loss is: 3.1732357
+700 / 1349
+Trining loss is: 3.0182934
+800 / 1349
+Trining loss is: 2.4049516
+900 / 1349
+Trining loss is: 2.6785233
+1000 / 1349
+Trining loss is: 2.3546147
+1100 / 1349
+Trining loss is: 2.7620099
+1200 / 1349
+Trining loss is: 2.809608
+1300 / 1349
+Trining loss is: 2.605944
+0 / 1349
+Trining loss is: 2.854526
+100 / 1349
+Trining loss is: 2.984993
+200 / 1349
+Trining loss is: 2.8134701
+300 / 1349
+Trining loss is: 2.0700943
+400 / 1349
+Trining loss is: 3.0412633
+500 / 1349
+Trining loss is: 2.8432853
+600 / 1349
+Trining loss is: 3.1202266
+700 / 1349
+Trining loss is: 3.0057886
+800 / 1349
+Trining loss is: 2.3485448
+900 / 1349
+Trining loss is: 2.6441617
+1000 / 1349
+Trining loss is: 2.2912366
+1100 / 1349
+Trining loss is: 2.708998
+1200 / 1349
+Trining loss is: 2.7719815
+1300 / 1349
+Trining loss is: 2.5173163
+0 / 1349
+Trining loss is: 2.8034966
+100 / 1349
+Trining loss is: 2.9450183
+200 / 1349
+Trining loss is: 2.7484677
+300 / 1349
+Trining loss is: 2.038211
+400 / 1349
+Trining loss is: 3.0106955
+500 / 1349
+Trining loss is: 2.78491
+600 / 1349
+Trining loss is: 3.093665
+700 / 1349
+Trining loss is: 2.9149103
+800 / 1349
+Trining loss is: 2.2983541
+900 / 1349
+Trining loss is: 2.6065657
+1000 / 1349
+Trining loss is: 2.2383122
+1100 / 1349
+Trining loss is: 2.6904945
+1200 / 1349
+Trining loss is: 2.7112122
+1300 / 1349
+Trining loss is: 2.5159972
+0 / 1349
+Trining loss is: 2.7454004
+100 / 1349
+Trining loss is: 2.8927722
+200 / 1349
+Trining loss is: 2.696286
+300 / 1349
+Trining loss is: 2.0017033
+400 / 1349
+Trining loss is: 2.915755
+500 / 1349
+Trining loss is: 2.7734246
+600 / 1349
+Trining loss is: 3.0417695
+700 / 1349
+Trining loss is: 2.900575
+800 / 1349
+Trining loss is: 2.2407687
+900 / 1349
+Trining loss is: 2.5719533
+1000 / 1349
+Trining loss is: 2.2230613
+1100 / 1349
+Trining loss is: 2.6071217
+1200 / 1349
+Trining loss is: 2.6646864
+1300 / 1349
+Trining loss is: 2.462344
+0 / 1349
+Trining loss is: 2.7267406
+100 / 1349
+Trining loss is: 2.8441296
+200 / 1349
+Trining loss is: 2.643832
+300 / 1349
+Trining loss is: 1.953087
+400 / 1349
+Trining loss is: 2.8745532
+500 / 1349
+Trining loss is: 2.7050972
+600 / 1349
+Trining loss is: 3.033994
+700 / 1349
+Trining loss is: 2.8513973
+800 / 1349
+Trining loss is: 2.1998339
+900 / 1349
+Trining loss is: 2.4985254
+1000 / 1349
+Trining loss is: 2.1589968
+1100 / 1349
+Trining loss is: 2.552663
+1200 / 1349
+Trining loss is: 2.6170907
+1300 / 1349
+Trining loss is: 2.4154272
+0 / 1349
+Trining loss is: 2.6792812
+100 / 1349
+Trining loss is: 2.769431
+200 / 1349
+Trining loss is: 2.6115496
+300 / 1349
+Trining loss is: 1.9023281
+400 / 1349
+Trining loss is: 2.82947
+500 / 1349
+Trining loss is: 2.6201673
+600 / 1349
+Trining loss is: 3.020803
+700 / 1349
+Trining loss is: 2.799871
+800 / 1349
+Trining loss is: 2.1655242
+900 / 1349
+Trining loss is: 2.4748256
+1000 / 1349
+Trining loss is: 2.143236
+1100 / 1349
+Trining loss is: 2.5297065
+1200 / 1349
+Trining loss is: 2.5719442
+1300 / 1349
+Trining loss is: 2.3435113
+0 / 1349
+Trining loss is: 2.6432133
+100 / 1349
+Trining loss is: 2.716177
+200 / 1349
+Trining loss is: 2.566068
+300 / 1349
+Trining loss is: 1.8693591
+400 / 1349
+Trining loss is: 2.7822516
+500 / 1349
+Trining loss is: 2.6152916
+600 / 1349
+Trining loss is: 2.9519587
+700 / 1349
+Trining loss is: 2.7662609
+800 / 1349
+Trining loss is: 2.1519513
+900 / 1349
+Trining loss is: 2.4569075
+1000 / 1349
+Trining loss is: 2.128743
+1100 / 1349
+Trining loss is: 2.488862
+1200 / 1349
+Trining loss is: 2.5316038
+1300 / 1349
+Trining loss is: 2.3276844
+0 / 1349
+Trining loss is: 2.5978684
+100 / 1349
+Trining loss is: 2.691689
+200 / 1349
+Trining loss is: 2.4959433
+300 / 1349
+Trining loss is: 1.8567078
+400 / 1349
+Trining loss is: 2.7490728
+500 / 1349
+Trining loss is: 2.547451
+600 / 1349
+Trining loss is: 2.90032
+700 / 1349
+Trining loss is: 2.7395782
+800 / 1349
+Trining loss is: 2.0856729
+900 / 1349
+Trining loss is: 2.3814588
+1000 / 1349
+Trining loss is: 2.0950403
+1100 / 1349
+Trining loss is: 2.42962
+1200 / 1349
+Trining loss is: 2.446637
+1300 / 1349
+Trining loss is: 2.300819
+0 / 1349
+Trining loss is: 2.5285807
+100 / 1349
+Trining loss is: 2.6286616
+200 / 1349
+Trining loss is: 2.4755526
+300 / 1349
+Trining loss is: 1.7906197
+400 / 1349
+Trining loss is: 2.7696486
+500 / 1349
+Trining loss is: 2.515
+600 / 1349
+Trining loss is: 2.8543847
+700 / 1349
+Trining loss is: 2.6759493
+800 / 1349
+Trining loss is: 2.0444782
+900 / 1349
+Trining loss is: 2.3909004
+1000 / 1349
+Trining loss is: 2.0321274
+1100 / 1349
+Trining loss is: 2.4003756
+1200 / 1349
+Trining loss is: 2.424226
+1300 / 1349
+Trining loss is: 2.237087
+0 / 1349
+Trining loss is: 2.472017
+100 / 1349
+Trining loss is: 2.5783427
+200 / 1349
+Trining loss is: 2.43598
+300 / 1349
+Trining loss is: 1.7824197
+400 / 1349
+Trining loss is: 2.6838412
+500 / 1349
+Trining loss is: 2.473907
+600 / 1349
+Trining loss is: 2.8151882
+700 / 1349
+Trining loss is: 2.6703317
+800 / 1349
+Trining loss is: 1.9736898
+900 / 1349
+Trining loss is: 2.317931
+1000 / 1349
+Trining loss is: 2.0064528
+1100 / 1349
+Trining loss is: 2.3706906
+1200 / 1349
+Trining loss is: 2.3522494
+1300 / 1349
+Trining loss is: 2.227418
+0 / 1349
+Trining loss is: 2.4483254
+100 / 1349
+Trining loss is: 2.5518086
+200 / 1349
+Trining loss is: 2.3894353
+300 / 1349
+Trining loss is: 1.6828612
+400 / 1349
+Trining loss is: 2.6323986
+500 / 1349
+Trining loss is: 2.408318
+600 / 1349
+Trining loss is: 2.7270265
+700 / 1349
+Trining loss is: 2.6236842
+800 / 1349
+Trining loss is: 1.9450215
+900 / 1349
+Trining loss is: 2.2852285
+1000 / 1349
+Trining loss is: 1.9321252
+1100 / 1349
+Trining loss is: 2.3296342
+1200 / 1349
+Trining loss is: 2.32918
+1300 / 1349
+Trining loss is: 2.2059438
+0 / 1349
+Trining loss is: 2.38698
+100 / 1349
+Trining loss is: 2.4385219
+200 / 1349
+Trining loss is: 2.3547065
+300 / 1349
+Trining loss is: 1.6521463
+400 / 1349
+Trining loss is: 2.5511253
+500 / 1349
+Trining loss is: 2.3805044
+600 / 1349
+Trining loss is: 2.701841
+700 / 1349
+Trining loss is: 2.5770228
+800 / 1349
+Trining loss is: 1.9416746
+900 / 1349
+Trining loss is: 2.2781596
+1000 / 1349
+Trining loss is: 1.8866527
+1100 / 1349
+Trining loss is: 2.2864118
+1200 / 1349
+Trining loss is: 2.3130136
+1300 / 1349
+Trining loss is: 2.1531584
+0 / 1349
+Trining loss is: 2.351637
+100 / 1349
+Trining loss is: 2.4323792
+200 / 1349
+Trining loss is: 2.3282316
+300 / 1349
+Trining loss is: 1.6371548
+400 / 1349
+Trining loss is: 2.5184436
+500 / 1349
+Trining loss is: 2.3310022
+600 / 1349
+Trining loss is: 2.64
+700 / 1349
+Trining loss is: 2.5476513
+800 / 1349
+Trining loss is: 1.8843364
+900 / 1349
+Trining loss is: 2.2336333
+1000 / 1349
+Trining loss is: 1.8687457
+1100 / 1349
+Trining loss is: 2.283867
+1200 / 1349
+Trining loss is: 2.2716043
+1300 / 1349
+Trining loss is: 2.086736
+0 / 1349
+Trining loss is: 2.29467
+100 / 1349
+Trining loss is: 2.3826432
+200 / 1349
+Trining loss is: 2.2481709
+300 / 1349
+Trining loss is: 1.6060581
+400 / 1349
+Trining loss is: 2.461324
+500 / 1349
+Trining loss is: 2.3008816
+600 / 1349
+Trining loss is: 2.626418
+700 / 1349
+Trining loss is: 2.524616
+800 / 1349
+Trining loss is: 1.8408198
+900 / 1349
+Trining loss is: 2.199245
+1000 / 1349
+Trining loss is: 1.7925528
+1100 / 1349
+Trining loss is: 2.223696
+1200 / 1349
+Trining loss is: 2.2390568
+1300 / 1349
+Trining loss is: 2.0778828
+0 / 1349
+Trining loss is: 2.2600286
+100 / 1349
+Trining loss is: 2.339175
+200 / 1349
+Trining loss is: 2.2495172
+300 / 1349
+Trining loss is: 1.5590911
+400 / 1349
+Trining loss is: 2.4250975
+500 / 1349
+Trining loss is: 2.2327085
+600 / 1349
+Trining loss is: 2.5798285
+700 / 1349
+Trining loss is: 2.4591308
+800 / 1349
+Trining loss is: 1.7887336
+900 / 1349
+Trining loss is: 2.1629996
+1000 / 1349
+Trining loss is: 1.7455108
+1100 / 1349
+Trining loss is: 2.1442745
+1200 / 1349
+Trining loss is: 2.206417
+1300 / 1349
+Trining loss is: 2.0395398
+0 / 1349
+Trining loss is: 2.2177913
+100 / 1349
+Trining loss is: 2.3122718
+200 / 1349
+Trining loss is: 2.2238536
+300 / 1349
+Trining loss is: 1.5121632
+400 / 1349
+Trining loss is: 2.380019
+500 / 1349
+Trining loss is: 2.156345
+600 / 1349
+Trining loss is: 2.5320585
+700 / 1349
+Trining loss is: 2.422978
+800 / 1349
+Trining loss is: 1.751524
+900 / 1349
+Trining loss is: 2.1449418
+1000 / 1349
+Trining loss is: 1.718959
+1100 / 1349
+Trining loss is: 2.1651382
+1200 / 1349
+Trining loss is: 2.153775
+1300 / 1349
+Trining loss is: 1.9915295
+0 / 1349
+Trining loss is: 2.1757636
+100 / 1349
+Trining loss is: 2.2497633
+200 / 1349
+Trining loss is: 2.1875737
+300 / 1349
+Trining loss is: 1.5129827
+400 / 1349
+Trining loss is: 2.2980223
+500 / 1349
+Trining loss is: 2.1505463
+600 / 1349
+Trining loss is: 2.488049
+700 / 1349
+Trining loss is: 2.4086819
+800 / 1349
+Trining loss is: 1.6825914
+900 / 1349
+Trining loss is: 2.1329694
+1000 / 1349
+Trining loss is: 1.70869
+1100 / 1349
+Trining loss is: 2.0927036
+1200 / 1349
+Trining loss is: 2.0826406
+1300 / 1349
+Trining loss is: 1.9735038
+0 / 1349
+Trining loss is: 2.2030115
+100 / 1349
+Trining loss is: 2.2345963
+200 / 1349
+Trining loss is: 2.1444418
+300 / 1349
+Trining loss is: 1.4659852
+400 / 1349
+Trining loss is: 2.2673562
+500 / 1349
+Trining loss is: 2.1213973
+600 / 1349
+Trining loss is: 2.4891906
+700 / 1349
+Trining loss is: 2.38653
+800 / 1349
+Trining loss is: 1.6911504
+900 / 1349
+Trining loss is: 2.0759025
+1000 / 1349
+Trining loss is: 1.7012577
+1100 / 1349
+Trining loss is: 2.0665543
+1200 / 1349
+Trining loss is: 2.0663698
+1300 / 1349
+Trining loss is: 1.9428861
+0 / 1349
+Trining loss is: 2.139451
+100 / 1349
+Trining loss is: 2.1871655
+200 / 1349
+Trining loss is: 2.0828562
+300 / 1349
+Trining loss is: 1.4422057
+400 / 1349
+Trining loss is: 2.19925
+500 / 1349
+Trining loss is: 2.0553362
+600 / 1349
+Trining loss is: 2.5022204
+700 / 1349
+Trining loss is: 2.3208053
+800 / 1349
+Trining loss is: 1.6156037
+900 / 1349
+Trining loss is: 2.0197654
+1000 / 1349
+Trining loss is: 1.6441649
+1100 / 1349
+Trining loss is: 2.0230818
+1200 / 1349
+Trining loss is: 2.043823
+1300 / 1349
+Trining loss is: 1.8712851
+0 / 1349
+Trining loss is: 2.0746732
+100 / 1349
+Trining loss is: 2.1836772
+200 / 1349
+Trining loss is: 2.0461853
+300 / 1349
+Trining loss is: 1.4138228
+400 / 1349
+Trining loss is: 2.1846638
+500 / 1349
+Trining loss is: 2.0220191
+600 / 1349
+Trining loss is: 2.461181
+700 / 1349
+Trining loss is: 2.2889836
+800 / 1349
+Trining loss is: 1.6124766
+900 / 1349
+Trining loss is: 1.987204
+1000 / 1349
+Trining loss is: 1.6082293
+1100 / 1349
+Trining loss is: 1.9681982
+1200 / 1349
+Trining loss is: 2.001729
+1300 / 1349
+Trining loss is: 1.8232769
+0 / 1349
+Trining loss is: 2.0904229
+100 / 1349
+Trining loss is: 2.152622
+200 / 1349
+Trining loss is: 2.0703013
+300 / 1349
+Trining loss is: 1.3812919
+400 / 1349
+Trining loss is: 2.1478
+500 / 1349
+Trining loss is: 1.9972712
+600 / 1349
+Trining loss is: 2.42513
+700 / 1349
+Trining loss is: 2.2607088
+800 / 1349
+Trining loss is: 1.5369505
+900 / 1349
+Trining loss is: 1.9490241
+1000 / 1349
+Trining loss is: 1.5929304
+1100 / 1349
+Trining loss is: 1.9391383
+1200 / 1349
+Trining loss is: 1.96966
+1300 / 1349
+Trining loss is: 1.7718246
+0 / 1349
+Trining loss is: 2.0380566
+100 / 1349
+Trining loss is: 2.0891469
+200 / 1349
+Trining loss is: 1.9841112
+300 / 1349
+Trining loss is: 1.3525453
+400 / 1349
+Trining loss is: 2.1102588
+500 / 1349
+Trining loss is: 1.9646423
+600 / 1349
+Trining loss is: 2.3969588
+700 / 1349
+Trining loss is: 2.252594
+800 / 1349
+Trining loss is: 1.5305248
+900 / 1349
+Trining loss is: 1.903839
+1000 / 1349
+Trining loss is: 1.5643127
+1100 / 1349
+Trining loss is: 1.9142594
+1200 / 1349
+Trining loss is: 1.9352005
+1300 / 1349
+Trining loss is: 1.741397
+0 / 1349
+Trining loss is: 1.9863316
+100 / 1349
+Trining loss is: 2.0547786
+200 / 1349
+Trining loss is: 1.9316374
+300 / 1349
+Trining loss is: 1.3081106
+400 / 1349
+Trining loss is: 2.0793552
+500 / 1349
+Trining loss is: 1.9549783
+600 / 1349
+Trining loss is: 2.3697662
+700 / 1349
+Trining loss is: 2.1744173
+800 / 1349
+Trining loss is: 1.499496
+900 / 1349
+Trining loss is: 1.9058486
+1000 / 1349
+Trining loss is: 1.5660849
+1100 / 1349
+Trining loss is: 1.8356041
+1200 / 1349
+Trining loss is: 1.9112301
+1300 / 1349
+Trining loss is: 1.7041374
+0 / 1349
+Trining loss is: 1.9617975
+100 / 1349
+Trining loss is: 2.0219927
+200 / 1349
+Trining loss is: 1.9019194
+300 / 1349
+Trining loss is: 1.2843608
+400 / 1349
+Trining loss is: 2.0443788
+500 / 1349
+Trining loss is: 1.8900198
+600 / 1349
+Trining loss is: 2.3025596
+700 / 1349
+Trining loss is: 2.144938
+800 / 1349
+Trining loss is: 1.4872905
+900 / 1349
+Trining loss is: 1.8596989
+1000 / 1349
+Trining loss is: 1.5143842
+1100 / 1349
+Trining loss is: 1.8170471
+1200 / 1349
+Trining loss is: 1.8526542
+1300 / 1349
+Trining loss is: 1.6696655
+0 / 1349
+Trining loss is: 1.9157472
+100 / 1349
+Trining loss is: 1.9635289
+200 / 1349
+Trining loss is: 1.8750507
+300 / 1349
+Trining loss is: 1.2518115
+400 / 1349
+Trining loss is: 2.001203
+500 / 1349
+Trining loss is: 1.8777273
+600 / 1349
+Trining loss is: 2.3107703
+700 / 1349
+Trining loss is: 2.1016746
+800 / 1349
+Trining loss is: 1.4509618
+900 / 1349
+Trining loss is: 1.8221418
+1000 / 1349
+Trining loss is: 1.4792559
+1100 / 1349
+Trining loss is: 1.8156134
+1200 / 1349
+Trining loss is: 1.7904943
+1300 / 1349
+Trining loss is: 1.6359967
+0 / 1349
+Trining loss is: 1.8991303
+100 / 1349
+Trining loss is: 1.9285746
+200 / 1349
+Trining loss is: 1.867073
+300 / 1349
+Trining loss is: 1.2658592
+400 / 1349
+Trining loss is: 1.978297
+500 / 1349
+Trining loss is: 1.851004
+600 / 1349
+Trining loss is: 2.234886
+700 / 1349
